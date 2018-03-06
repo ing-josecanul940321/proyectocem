@@ -1,0 +1,67 @@
+.container{
+	max-width: 1024px;
+	margin: 0px;
+	padding: 0px;
+	/*border:1px black solid;*/
+}
+
+.title-medicos{
+	font-weight: bold; 
+	text-align: center;
+	vertical-align: center;
+	padding-top: 15%;
+}
+
+#btn-buscar{
+	/*border:1px black solid; */
+	padding-top: 3.6%;
+}
+
+.title-medicos002{
+	font-weight: bold;
+}
+
+.figura-medico{
+	margin:0px;
+	padding: 0px;
+}
+
+.figura-medico img{
+	width: 100%;
+}
+
+.busqueda001{
+	margin-top: 4%;
+}
+
+.busqueda001 p{
+	font-family: arial;
+}
+
+#nombre-medico{
+	font-weight: bold;
+}
+
+.col-btn001{
+	padding-top: 1.2%;
+	padding-bottom: 1.2%;
+}
+
+.btn-perfil{
+	/*border:1px black solid;*/
+	padding: 1% 20%;
+	background-color: #8CBCD2;
+	color:#1B1464;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 768px){
+	.title-medicos{
+		padding-top: 0%;
+		padding-bottom: 3%;
+	}
+
+	#btn-buscar{
+		padding-top: 0%;
+	}
+}
